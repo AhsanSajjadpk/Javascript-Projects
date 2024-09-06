@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 400px;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 0px 20px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 25px 20px;
+}
+
+.input-controls {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin: 2px 0px;
+    gap: 1px;
+    padding: 0px 10px;
+}
+.input-controls input {
+    padding: 9px 8px;
+    margin-top: 2px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+.input-controls.error small{
+    visibility: visible;
+    
+}
+.input-controls.error input{
+   
+    outline: tomato;
+    /* border-radius: 5px; */
+    /* box-shadow: 0px 0p 10px red; */
+    border: 2px solid tomato;
+}
+
+
+.input-controls.success input{
+    border: 2px solid lime;
+
+}
+
+
+
+.input-controls label {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.input-controls small {
+    font-size: 14px;
+    color: red;
+    visibility: hidden;
+   
+}
+
+
+#register {
+    padding: 7px 10px;
+    font-size: 18px;
+    width: 94%;
+    background: linear-gradient(to bottom, rgb(53, 53, 228), rgb(144, 144, 241));
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px ;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+#register:hover {}
+
+#register:active {
+
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width : 500px) {
+
+    form {
+        width: 90%;
+    }
+
+}
