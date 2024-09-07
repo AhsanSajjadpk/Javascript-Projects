@@ -1,4 +1,4 @@
-### 10 JS PROJECTS
+# JAVASCRIPTS PROJECTS
 
 [visit to view Projects](https://jsprojects-ahsan.surge.sh/)
 
