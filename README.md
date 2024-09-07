@@ -1,6 +1,6 @@
 # JAVASCRIPTS PROJECTS
 
-[visit to view Projects](https://jsprojects-ahsan.surge.sh/)
+[https://jsprojects-ahsan.surge.sh/](https://jsprojects-ahsan.surge.sh/)
 
 
 ## Project 1
