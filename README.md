@@ -18,5 +18,5 @@
 > [!NOTE]
 > This Tic Tac Toe game is built with JavaScript, featuring a simple and interactive interface for two players. It includes basic game logic and responsive design.
 
-[Project 1 - Tic Tac Toe Game  -> visit](https://2jsproject-ahsan.surge.sh/)
+[Project 2 - Tic Tac Toe Game  -> visit](https://2jsproject-ahsan.surge.sh/)
 
