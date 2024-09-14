@@ -20,3 +20,10 @@
 
 [Project 2 - Tic Tac Toe Game  -> visit](https://2jsproject-ahsan.surge.sh/)
 
+## Project 3
+> Google Translator
+
+> [!NOTE]
+> A simple Google Translator clone built with HTML, CSS, and JavaScript. It allows users to translate text between languages using the Google Translate API.
+
+[Project 2 - Language Translator  -> visit](https://3jsproject-ahsan.surge.sh/)
