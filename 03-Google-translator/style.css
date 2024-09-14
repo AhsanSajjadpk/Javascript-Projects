@@ -13,11 +13,11 @@ body {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     gap: 15px;
 }
 
-h1{
+h1 {
     color: tomato;
 }
 
@@ -29,11 +29,13 @@ h1{
     background: transparent;
     border: none;
 }
+
 .swap:hover {
-color: red;
+    color: tomato;
 }
+
 .swap:active {
-transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 .container {
@@ -53,7 +55,7 @@ transform: scale(0.9);
     justify-content: center;
     align-items: center;
     gap: 15px;
-    width: 300px;
+    /* width: 300px; */
     position: relative;
     /* background-color: aqua; */
 }
@@ -67,20 +69,20 @@ transform: scale(0.9);
 
 .container section textarea {
 
-    min-width: 300px;
-    max-width: 300px;
-    min-height: 300px;
-    max-height: 300px;
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 400px;
+    max-height: 400px;
     /* width: 100%; */
 
-    padding: 5px;
+    padding: 15px;
     border: 2px solid rgb(215, 213, 213);
     outline: none;
     border-radius: 5px;
     font-size: 22px;
 }
 
-.copy-to-clipboard{
+.copy-to-clipboard {
     font-size: 18px;
     background: transparent;
     border: none;
@@ -90,9 +92,84 @@ transform: scale(0.9);
     cursor: pointer;
     color: rgb(12, 11, 11);
 }
-.copy-to-clipboard:hover{
+
+.copy-to-clipboard:hover {
     color: gray;
 }
-.copy-to-clipboard:active{
-color: red;
+
+.copy-to-clipboard:active {
+    color: tomato;
+}
+
+
+
+@media screen and (max-width : 1000px) {
+
+
+
+    .swap {
+        width: 40px;
+        height: 33px;
+        font-size: 25px;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: auto;
+        padding: 15px 0px;
+    }
+
+    .container section textarea {
+
+        min-width: 450px;
+        max-width: 450px;
+        min-height: 250px;
+        max-height: 250px;
+    }
+}
+
+@media screen and (max-width : 600px) {
+
+    body {
+
+        /* background-color: rgb(71, 55, 55); */
+        /* color: aliceblue; */
+        padding-top: 30px;
+        height: 100vh   ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding: 5px 0px;
+        gap: 5px;
+    }
+
+    .container section {
+        width: 80%;
+    }
+
+    .container section textarea {
+
+        min-width: 100%;
+        max-width: 100%;
+        min-height: 150px;
+        max-height: 150px;
+    }
 }
