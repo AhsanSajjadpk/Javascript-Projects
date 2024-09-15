@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(187, 217, 248);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    border-radius: 15px;
+    width: 700px;
+    max-width: 100%;
+
+}
+
+main>h1 {
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+main section {
+    /* border-bottom: 1px solid black;  */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+    gap : 15px;
+}
+
+.start{
+    padding: 5px 15px;
+    font-size: 18px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* To show home screen */
+main.home .home-screen {
+    display: flex;
+}
+
+main.home .game-screen {
+    display: none;
+}
+
+main.home .result-screen {
+    display: none;
+}
+
+
+/* To show Game screen */
+main.game .home-screen {
+    display: none;
+}
+
+main.game .game-screen {
+    display: flex;
+}
+
+main.game .result-screen {
+    display: none;
+}
+
+
+/* To show Result screen */
+main.result .home-screen {
+    display: none;
+}
+
+main.result .game-screen {
+    display: none;
+}
+
+main.result .result-screen {
+    display: flex;
+}
+
+
+
+
+main section fieldset{
+    padding: 20px;
+    width: 90%;
+}
