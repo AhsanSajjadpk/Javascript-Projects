@@ -10,7 +10,7 @@
 
 <body>
 
-    <main class="result" id="home">
+    <main class="home" id="home">
 
         <h1>Fast Typing Game</h1>
 
@@ -27,7 +27,7 @@
                  <div class="form-controls">
 
                    
-                    <label for="difficulty">Difficulty</label> 
+                    <label for="difficulty"> <b> Difficulty</b></label> 
                     <div id="difficulty">
 
                         <input type="radio" name="difficulty" id="easy" value="easy" checked> Easy &nbsp;
@@ -60,9 +60,9 @@
                 <p>Time : <span id="game-time">15s</span></p>
             </div>
             <small>Type the word shown below</small>
-            <h1>JavaScript</h1>
+            <h1 id="randomWord">JavaScript</h1>
 
-            <input type="text" class="word">
+            <input  type="text" class="word" id="inputWord" placeholder="Type here" autofocus>
       
 
         </section>
@@ -71,14 +71,14 @@
 
 
 
-        <!-- Home Screen -->
+        <!-- Result Screen -->
 
         <section id="result-screen" class="result-screen">
 
 
             <p><b>Game Over! </b> you ran out of Time.</p>
             <h2>In Level : <span id="result-level">Easy</span></h2>
-            <p> Your score is : <b>10 </b></p>
+            <p> Your score is : <b> <span id="result-score">0</span>  </b></p>
 
             <button id="restart">Restart</button>
 

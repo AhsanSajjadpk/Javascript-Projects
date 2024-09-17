@@ -200,6 +200,10 @@ input[type = "text"]{
     color: tomato;
 }
 
+#game-score,#game-time{
+    font-size: 20px;
+}
+
 @media screen and (max-width: 500px) {
     
     input[type = "text"]{
