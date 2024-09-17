@@ -26,7 +26,7 @@
 > [!NOTE]
 > A simple Google Translator clone built with HTML, CSS, and JavaScript. It allows users to translate text between languages using the Google Translate API.
 
-[Project 2 - Language Translator  -> visit](https://3jsproject-ahsan.surge.sh/)
+[Project 3 - Language Translator  -> visit](https://3jsproject-ahsan.surge.sh/)
 
 
 ## Project 4
@@ -35,4 +35,4 @@
 > [!NOTE]
 > A typing speed game built with HTML, CSS, and JavaScript. It challenges users to type words quickly and accurately, displaying their typing speed in real-time.
 
-[Project 2 - Fast Typing Speed Game  -> visit](https://4jsproject-ahsan.surge.sh/)
+[Project 4 - Fast Typing Speed Game  -> visit](https://4jsproject-ahsan.surge.sh/)
