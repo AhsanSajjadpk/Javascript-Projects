@@ -45,3 +45,12 @@
 > This is a simple Snake Game built using HTML, CSS, and JavaScript. The objective is to control the snake, collect food, and grow longer without hitting yourself. The game features smooth controls, real-time score tracking, and increasing difficulty as the snake grows.
 
 [Project 5 - Snake Game  -> visit](https://5jsproject-ahsan.surge.sh/)
+
+
+## Project 5
+> Custom Music Player ▶⏸🎵🎶
+
+> [!NOTE]
+> A custom music player built with HTML, CSS, and JavaScript, featuring fully responsive controls for play, pause, volume, and progress. This project showcases dynamic media control using JavaScript.
+
+[Project 6 - Music Player  -> visit](https://6jsproject-ahsan.surge.sh/)
