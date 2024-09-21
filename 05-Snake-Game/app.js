@@ -161,7 +161,8 @@ start.addEventListener('click', (e) => {
     start.style.display = 'none'
     document.getElementById('controls').style.display = 'block'
     clearInterval(interval)
-    scoreDom.innerHTML = '0'
+    score = 0
+    scoreDom.innerHTML = score
     snakeBody = ['41', '42', '43', '44']
     direction = 'right'
     startInterval()
