@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <h1>Snake Game</h1>
+    <p>Score : <span id="score">0</span></p>
+
+    <div class="board">
+
+        <div class="row">
+            <div class="box" id="00">00</div>
+            <div class="box" id="01">01</div>
+            <div class="box" id="02">02</div>
+            <div class="box" id="03">03</div>
+            <div class="box" id="04">04</div>
+            <div class="box" id="05">05</div>
+            <div class="box" id="06">06</div>
+            <div class="box" id="07">07</div>
+            <div class="box" id="08">08</div>
+            <div class="box" id="09">09</div>
+        </div>
+        <div class="row">
+            <div class="box" id="10">10</div>
+            <div class="box" id="11">11</div>
+            <div class="box" id="12">12</div>
+            <div class="box" id="13">13</div>
+            <div class="box" id="14">14</div>
+            <div class="box" id="15">15</div>
+            <div class="box" id="16">16</div>
+            <div class="box" id="17">17</div>
+            <div class="box" id="18">18</div>
+            <div class="box" id="19">19</div>
+        </div>
+        <div class="row">
+            <div class="box" id="20">20</div>
+            <div class="box" id="21">21</div>
+            <div class="box" id="22">22</div>
+            <div class="box" id="23">23</div>
+            <div class="box" id="24">24</div>
+            <div class="box" id="25">25</div>
+            <div class="box" id="26">26</div>
+            <div class="box" id="27">27</div>
+            <div class="box" id="28">28</div>
+            <div class="box" id="29">29</div>
+        </div>
+        <div class="row">
+            <div class="box" id="30">30</div>
+            <div class="box" id="31">31</div>
+            <div class="box" id="32">32</div>
+            <div class="box" id="33">33</div>
+            <div class="box" id="34">34</div>
+            <div class="box" id="35">35</div>
+            <div class="box" id="36">36</div>
+            <div class="box" id="37">37</div>
+            <div class="box" id="38">38</div>
+            <div class="box" id="39">39</div>
+        </div>
+        <div class="row">
+            <div class="box" id="40">40</div>
+            <div class="box" id="41">41</div>
+            <div class="box" id="42">42</div>
+            <div class="box" id="43">43</div>
+            <div class="box" id="44">44</div>
+            <div class="box" id="45">45</div>
+            <div class="box" id="46">46</div>
+            <div class="box" id="47">47</div>
+            <div class="box" id="48">48</div>
+            <div class="box" id="49">49</div>
+        </div>
+        <div class="row">
+            <div class="box" id="50">50</div>
+            <div class="box" id="51">51</div>
+            <div class="box" id="52">52</div>
+            <div class="box" id="53">53</div>
+            <div class="box" id="54">54</div>
+            <div class="box" id="55">55</div>
+            <div class="box" id="56">56</div>
+            <div class="box" id="57">57</div>
+            <div class="box" id="58">58</div>
+            <div class="box" id="59">59</div>
+        </div>
+        <div class="row">
+            <div class="box" id="60">60</div>
+            <div class="box" id="61">61</div>
+            <div class="box" id="62">62</div>
+            <div class="box" id="63">63</div>
+            <div class="box" id="64">64</div>
+            <div class="box" id="65">65</div>
+            <div class="box" id="66">66</div>
+            <div class="box" id="67">67</div>
+            <div class="box" id="68">68</div>
+            <div class="box" id="69">69</div>
+        </div>
+        <div class="row">
+            <div class="box" id="70">70</div>
+            <div class="box" id="71">71</div>
+            <div class="box" id="72">72</div>
+            <div class="box" id="73">73</div>
+            <div class="box" id="74">74</div>
+            <div class="box" id="75">75</div>
+            <div class="box" id="76">76</div>
+            <div class="box" id="77">77</div>
+            <div class="box" id="78">78</div>
+            <div class="box" id="79">79</div>
+        </div>
+        <div class="row">
+            <div class="box" id="80">80</div>
+            <div class="box" id="81">81</div>
+            <div class="box" id="82">82</div>
+            <div class="box" id="83">83</div>
+            <div class="box" id="84">84</div>
+            <div class="box" id="85">85</div>
+            <div class="box" id="86">86</div>
+            <div class="box" id="87">87</div>
+            <div class="box" id="88">88</div>
+            <div class="box" id="89">89</div>
+        </div>
+        <div class="row">
+            <div id="90" class="box">90</div>
+            <div id="91" class="box">91</div>
+            <div id="92" class="box">92</div>
+            <div id="93" class="box">93</div>
+            <div id="94" class="box">94</div>
+            <div id="95" class="box">95</div>
+            <div id="96" class="box">96</div>
+            <div id="97" class="box">97</div>
+            <div id="98" class="box">98</div>
+            <div id="99" class="box">99</div>
+        </div>
+
+
+
+
+    </div>
+
+    <button id="start">Start</button>
+
+    <div class="controls" id="controls">
+
+        <div class="upper-layer">
+            <button id="upKey"><i class="fa-solid fa-up-long"></i> </button>
+        </div>
+
+        <div class="down-layer">
+            <button id="leftKey"><i class="fa-solid fa-left-long"></i> </button><button id="downKey"><i class="fa-solid fa-down-long"></i></button><button id="rightKey"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
