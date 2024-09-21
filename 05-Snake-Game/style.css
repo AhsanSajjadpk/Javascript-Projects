@@ -12,16 +12,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-        
+    position: relative;
     flex-direction: column;
     gap: 10px;
     color: aliceblue;
 }
 
-p{
+p {
     font-size: 20px;
 }
-p span{
+
+p span {
     color: yellow;
 }
 
@@ -50,26 +51,27 @@ p span{
 .box {
     width: 30px;
     height: 30px;
-    font-size: 22px; 
+    font-size: 22px;
     border-radius: 4px;
     /* border: 1px solid red; */
     background-color: rgb(181, 183, 185);
     color: transparent;
     /* color: black; */
-    
+
 }
 
-.row:nth-of-type(even) .box:nth-of-type(odd){
+.row:nth-of-type(even) .box:nth-of-type(odd) {
     background-color: rgb(225, 228, 231);
 }
-.row:nth-of-type(odd) .box:nth-of-type(even){
+
+.row:nth-of-type(odd) .box:nth-of-type(even) {
     background-color: rgb(225, 228, 231);
- 
+
 }
 
 
 
-#start{
+#start {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -79,32 +81,36 @@ p span{
     transition: all ease .5s;
     outline: none;
 }
-#start:hover{
-    
+
+#start:hover {
+
     box-shadow: 0px 0px 10px white;
-   transform: scale(1.1);
-    
-}
-#start:active{
-    
-   transform: scale(.6);
+    transform: scale(1.1);
+
 }
 
+#start:active {
+
+    transform: scale(.6);
+}
 
 
-.snake-body{
+
+.snake-body {
     background-color: blue !important;
 }
-.kill{
+
+.kill {
     background-color: red !important;
 }
-.food{
+
+.food {
     background-color: orange !important;
     /* padding: 5px !important; */
     /* margin: 5px !important; */
 }
 
-.controls{
+.controls {
     height: auto;
     min-width: 20%;
     /* background-color: red; */
@@ -114,7 +120,8 @@ p span{
     flex-direction: column;
     display: none;
 }
-.controls div button{
+
+.controls div button {
     width: 40px;
     height: 40px;
     padding: 2px;
@@ -126,7 +133,9 @@ p span{
     color: black;
     /* background-color: red; */
 }
-.down-layer,.upper-layer{
+
+.down-layer,
+.upper-layer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -136,26 +145,73 @@ p span{
     gap: 5px;
 }
 
+.developer {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 16px;
+
+    animation: movement infinite  5s;
+}
+
+.developer a {
+    color: red;
+    text-decoration: none;
+}
+
 
 @media screen and (max-width: 900px) {
-    
+
     .box {
         width: 30px;
         height: 30px;
-        font-size: 14px; 
+        font-size: 14px;
         /* display: ; */
     }
 
 
 }
+
 @media screen and (max-width: 500px) {
-    
+
     .box {
         width: 23px;
         height: 23px;
-        font-size: 14px; 
+        font-size: 14px;
         /* display: ; */
     }
 
+    .developer {
 
+
+        text-align: center;
+        right: 0px;
+        width: 100%;
+        font-size: 16px;
+        animation: none;
+
+    }
+
+
+}
+
+@keyframes movement {
+    0% {
+        transform: translateY(0px);
+    }
+    
+   25%{
+        transform: translateY(-30px);
+        
+    }
+    
+    75%{
+        transform: translateY(15px);
+        
+    }
+    100%{
+        
+        transform: translateY(0px);
+    }
+    
 }
