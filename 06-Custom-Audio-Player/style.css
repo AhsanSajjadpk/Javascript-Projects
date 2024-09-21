@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+    /* padding: 20px; */
+    background-color: black;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap :50px;
+
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px silver;
+    gap :10px;
+    width: 400px;
+    max-width: 86%;
+
+}
+p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+}
+p a{
+    color: red;
+    text-decoration: none;
+}
+.box h1{
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 10px 0px;
+    /* margin-bottom: 10px; */
+    /* background-color: red; */
+}
+.box h3{
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+
+    /* padding: 0px 0px 20px 0px; */
+    /* margin-bottom: 10px; */
+    /* background-color: red; */
+}
+
+.disk img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.disk{
+    position: relative;
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+}
+/* .hole{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.872);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+
+.progress-container{
+    width: 100%;
+    cursor: pointer;
+    height: 10px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.progress-bar{
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+}
+.btn{
+    cursor: pointer;
+    /* width: 20px;
+    height: 20px; */
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+}
+.navigation{
+    display: flex;
+    gap: 10px;
+}
+.rotate{
+    animation: rotates 15s linear infinite;
+}
+
+@keyframes rotates {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg); 
+    }
+}

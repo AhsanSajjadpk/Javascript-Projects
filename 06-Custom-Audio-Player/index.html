@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="box ">
+
+        <h1>Audio Player</h1>
+
+        <h3>Music</h3>
+
+        <div class="disk" id="disk">
+            <img src="./Assets/images/music.jpeg" alt="cover">
+            <div class="hole"></div>
+        </div>
+
+        <audio id="audio" src="./Assets/Audios/Ishq '_عشق' cover.mp3" ></audio>
+
+
+
+        <div class="progress-container" id="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+
+
+
+
+        <div class="navigation">
+            <button class="btn" id="play-pause"><i class="fa-solid fa-play"></i></button>
+            <button class="btn" id="volume"><i class="fa-solid fa-volume-high"></i></button>
+        </div>
+
+
+    </div>
+
+    <p>Developed by <a target="_blank" href="https://github.com/ahsansajjadpk">Ahsan Sajjad</a></p>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
