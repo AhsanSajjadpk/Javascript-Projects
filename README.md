@@ -36,3 +36,12 @@
 > A typing speed game built with HTML, CSS, and JavaScript. It challenges users to type words quickly and accurately, displaying their typing speed in real-time.
 
 [Project 4 - Fast Typing Speed Game  -> visit](https://4jsproject-ahsan.surge.sh/)
+
+
+## Project 5
+> Snake Game 🐍
+
+> [!NOTE]
+> This is a simple Snake Game built using HTML, CSS, and JavaScript. The objective is to control the snake, collect food, and grow longer without hitting yourself. The game features smooth controls, real-time score tracking, and increasing difficulty as the snake grows.
+
+[Project 5 - Snake Game  -> visit](https://5jsproject-ahsan.surge.sh/)
