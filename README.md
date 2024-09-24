@@ -47,10 +47,19 @@
 [Project 5 - Snake Game  -> visit](https://5jsproject-ahsan.surge.sh/)
 
 
-## Project 5
+## Project 6
 > Custom Music Player ▶⏸🎵🎶
 
 > [!NOTE]
 > A custom music player built with HTML, CSS, and JavaScript, featuring fully responsive controls for play, pause, volume, and progress. This project showcases dynamic media control using JavaScript.
 
 [Project 6 - Music Player  -> visit](https://6jsproject-ahsan.surge.sh/)
+
+
+## Project 7
+> Todo Application
+
+> [!NOTE]
+> This is a simple and interactive ToDo App built using HTML, CSS, and JavaScript. It allows users to add, update, and delete tasks efficiently, making it an ideal tool for organizing day-to-day activities.
+
+[Project 7 - Todo App -> visit](https://7jsproject-ahsan.surge.sh/)
